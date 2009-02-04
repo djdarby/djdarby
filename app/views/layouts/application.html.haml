@@ -1,0 +1,26 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title 
+      = "[DEV] " if RAILS_ENV == 'development'
+      DJDarby.com
+      = " #{@page_title}" unless @page_title.nil?
+    = stylesheet_link_tag 'djdarby'
+    = javascript_include_tag 'vendor/jquery-1.2.6', 'vendor/jquery-ui-personalized-1.5.3.js', 'vendor/jquery.form.js', 'vendor/jquery.ensure.js', 'vendor/jquery.ajax.js', "jquery.alerts.js", 'application'
+    = yield :head
+
+  %body
+    #header
+      #banner
+        = image_tag 'logo.png', :id => 'logo'
+        %ul#navigation
+          %li= link_to('Home', home_path) + '&nbsp;|'
+          %li= link_to('Receptions', receptions_path) + '&nbsp;|' 
+          %li= link_to('Karaoke', karaoke_path) + '&nbsp;|'
+          %li= link_to('Contact', contact_path)
+        %br.clear
+    #viewport
+      = yield
+    #footer
+      &copy;2009 DJDarby.com | Contact: 
+      = mail_to 'darby@djdarby.com'
