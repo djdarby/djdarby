@@ -102,6 +102,7 @@ div#viewport {
   background-color: #202020;
   border-right: solid #101010 2px;
   border-bottom: solid #101010 2px;
+  border: solid #FFF 2px;
 }
 
 #footer {
