@@ -43,7 +43,7 @@ p {
 div#header {
   width: 100%;
   padding-top: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 20px;
 }
 
 div#banner {
@@ -55,7 +55,7 @@ div#banner {
 #header #banner img#logo {
   height: 66px;
   float: left;
-  margin-left: -32px;
+  margin-left: -46px;
 }
 
 ul#navigation {
@@ -93,12 +93,12 @@ ul#navigation a#current {
 
 div#viewport {
   width: 720px;
-  height: 570px;
   position: relative;
   margin: auto;
   padding: 10px;
   color: white;
   font-size: 14px;
+  line-height: 1.2em;
   background-color: #202020;
   border-right: solid #101010 2px;
   border-bottom: solid #101010 2px;
@@ -141,13 +141,13 @@ div#intro span#ellipsis {
 }
 
 p#in-touch a {
-display: block;
- margin: auto;
- margin-top: 20px;
- margin-bottom: 20px;
- background-color: #FFF36F;
- text-align: center;
- padding: 16px 0 16px 0;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFF36F;
+  text-align: center;
+  padding: 16px 0 16px 0;
   color: #333;
   text-decoration: none;
   font-size: 18px;
@@ -156,8 +156,7 @@ display: block;
 
 #next-karaoke {
   width: 100%;
-  position: absolute;
-  bottom: 8px;
+  clear: both;
 }
 
 #next-karaoke span {
