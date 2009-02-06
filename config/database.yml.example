@@ -1,19 +1,19 @@
 development:
   adapter: mysql
-  database: toobla_dev
+  database: djdarby_dev
   username: root
   password:
   socket: /tmp/mysql.sock
 test:
   adapter: mysql
-  database: toobla_test
+  database: djdarby_test
   username: root
   password:
   socket: /tmp/mysql.sock
 
 production:
   adapter: mysql
-  database: toobla_prod
+  database: djdarby_prod
   username: root
   password: 
   socket: /tmp/mysql.sock

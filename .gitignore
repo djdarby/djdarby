@@ -17,12 +17,5 @@ coverage/*
 public/javascripts/all.js
 public/stylesheets/all.css
 public/coverage
-public/avatars
-public/toob_images
-public/users
 vendor/plugins/selenium-on-rails/log/*
-config/apis/**/*.yml
-!config/apis/**/*.staging.yml
-!config/apis/**/*.example.yml
 public/javascripts/home.js
-public/directory_entry_thumbs/*
