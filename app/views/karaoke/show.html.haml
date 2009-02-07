@@ -1,0 +1,25 @@
+- content_for :head do
+  = stylesheet_link_tag 'karaoke'
+
+%h2 Sing your heart out!
+#copy
+  %h3 At karaoke night at the bar...
+  %p
+    Whether you&apos;re out on the town looking for a place to sing or
+    hosting your own karaoke party, Darby&apos;s 40,000&ndash;
+    %em plus
+    song library is bound to have your favorite song.
+  %blockquote#karaoke-endorsement
+    Darby knows all the regulars, and just how to tweak the microphone
+    for each singer. I've never seen a better karaoke Dj anywhere around town.
+    %span#endorser Matt, Grandview
+    %br.clear
+  %h3 ...or at your own private engagement
+  %p
+    Reserve your own private party, starting at just &#36;300, 
+    or check out the weekly show schedule for a bar near you!
+#singer-image
+  = image_tag('karaoke_singer_blue.jpg', :id => 'blue-singer')
+#karaoke-schedule
+  = render :partial => 'karaoke_schedule'
+  %br.clear
