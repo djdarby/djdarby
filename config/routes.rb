@@ -39,12 +39,12 @@ ActionController::Routing::Routes.draw do |map|
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing the them or commenting them out if you're using named routes and resources.
 
-  map.home '/', :controller => 'home', :action => 'index'
+  map.home '/', :controller => 'home', :action => 'show'
 
-  map.receptions '/receptions', :controller => 'home', :action => 'receptions'
-  map.karaoke '/karaoke', :controller => 'home', :action => 'karaoke'
-  map.contact '/contact', :controller => 'home', :action => 'contact'
+  map.receptions '/receptions', :controller => 'receptions', :action => 'show'
+  map.karaoke '/karaoke', :controller => 'karaoke', :action => 'show'
+  map.contact '/contact', :controller => 'contact', :action => 'show'
 
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  #map.connect ':controller/:action/:id'
+  #map.connect ':controller/:action/:id.:format'
 end
