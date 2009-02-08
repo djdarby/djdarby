@@ -1,0 +1,75 @@
+img {  }
+
+#packages {
+  width: 370px;
+  float: left;
+}
+
+#packages div {
+  width: 100%;
+  position: relative;
+}
+
+#packages h3 {
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+#packages span.price {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-weight: bold;
+  color: #3399CC;
+}
+
+#packages img#couple-dancing {
+  width: 360px;
+  border: solid white 2px; 
+  margin: 8px 0 12px 8px;
+}
+
+#packages span#elegance {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3399CC;
+}
+
+#packages ul {
+  list-style-type: square;
+  line-height: 1.3em;
+  font-size: 12px;
+  margin: 4px 0 4px 0px;
+  padding-left: 30px;
+}
+
+#copy {
+  width: 330px;
+  float: right;
+}
+
+#copy h2 {
+  font-size: 30px;
+  margin-top: 44px;
+}
+
+#copy p {
+  line-height: 1.5em;
+}
+
+#copy p#offset {
+  background-color: #101010;
+  color: #FFF;
+  padding: 10px;
+  margin-left: 2px;
+}
+
+#copy img#cake-cutting {
+ margin-left: 15px;
+ position: absolute;
+ bottom: 40px;
+ border: solid white 2px; 
+ width: 300px;
+}

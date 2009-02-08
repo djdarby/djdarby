@@ -33,7 +33,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.home '/', :controller => 'home', :action => 'show'
 
-  map.receptions '/receptions', :controller => 'home', :action => 'show'
+  map.receptions '/receptions', :controller => 'reception', :action => 'show'
   map.karaoke '/karaoke', :controller => 'karaoke', :action => 'show'
   map.contact '/contact', :controller => 'contact', :action => 'show'
   
