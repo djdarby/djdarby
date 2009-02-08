@@ -5,7 +5,7 @@ html, body, div, p{
 }
 
 body {
-  background-image: url('/images/background-gradient.png');
+  background-image: url('/images/background-gradient.gif');
   background-repeat: repeat-x;
   background-color: #FEFEFE;
   font-family: Helvetica, sans-serif;
