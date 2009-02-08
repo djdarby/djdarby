@@ -35,7 +35,9 @@ ActionController::Routing::Routes.draw do |map|
 
   map.receptions '/receptions', :controller => 'home', :action => 'show'
   map.karaoke '/karaoke', :controller => 'karaoke', :action => 'show'
-  map.contact '/contact', :controller => 'home', :action => 'show'
+  map.contact '/contact', :controller => 'contact', :action => 'show'
+  
+  map.planner_pdf '/files/ReceptionPlanner.pdf', :controller => 'contact'
 
   #map.connect ':controller/:action/:id'
   #map.connect ':controller/:action/:id.:format'

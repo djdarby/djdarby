@@ -1,0 +1,37 @@
+- content_for :head do
+  = stylesheet_link_tag 'contact'
+
+#contact-info
+  %h3 Contact
+  %p
+    For questions about availability or any other inquiries,
+    please contact Darby via email at
+    = mail_to 'darby@djdarby.com'
+    or, for a quicker response, by phone at
+    %span.phone (614) 537&ndash;5076
+    and he will get back to you as quickly as possible.
+  %h3 Wedding Reception Planner
+  %p
+    In order to provide you with the ideal reception experience
+    according to your wishes, a brief but detailed Reception Planner 
+    sheet must be filled out and returned. 
+  = link_to 'ReceptionPlanner.pdf', planner_pdf_path, :id => 'reception-planner', :target => '_blank'
+  %p
+    Please mail the completed planner to:
+    %ul#address
+      %li= 'Darby K. Place'
+      %li= '7436 E. Bryden Rd.'
+      %li= 'Reynoldsburg, OH  43068'
+      
+#about
+  %h3 About Dj Darby
+  = image_tag 'darby_headshot.jpg', :alt => 'Dj Darby Place', :id => 'headshot'
+  %p
+    Darby is a vibrant personality who brings energy and excitement to every
+    event. With over 15 years experience in the music industry, Darby combines
+    a vast knowledge of music and dance with business professionalism.
+  %p
+    When not conducting karaoke or performing duties as an MC, Darby can be found
+    at concerts both local and afar, or kayaking, camping, and white water rafting when
+    it's warm enough and skiing when it's not.
+%br.clear

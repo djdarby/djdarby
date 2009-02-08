@@ -1,0 +1,42 @@
+#contact-info {
+  float: left;
+  width: 300px;
+  margin-left: 16px;
+}
+
+#contact-info p { line-height: 1.4em; }
+
+ul#address { list-style: none; }
+
+.phone {
+  font-weight: bold;
+  color: #FFF39F;
+}
+
+#reception-planner {
+  display: block;
+  padding-top: 0.5em;
+  margin-left: 40px;;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 34px;
+  height: 34px;
+  background-image: url('/images/pdf_32x32.gif');
+  background-repeat: no-repeat;
+}
+
+#about {
+  float: right;
+  width: 350px;
+  margin-right: 20px; 
+}
+
+#about p {
+  line-height: 1.4em;
+}
+
+#headshot {
+  width: 150px;
+  float: right;
+  margin: 10px;
+}
