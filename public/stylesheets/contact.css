@@ -14,22 +14,31 @@ ul#address { list-style: none; }
 }
 
 #reception-planner {
-  display: block;
+  display: inline-block;
+  line-height: 34px;
   padding-top: 0.5em;
   margin-left: 40px;;
   margin-top: 16px;
   margin-bottom: 16px;
-  padding-left: 34px;
+  padding-right: 34px;
   height: 34px;
   background-image: url('/images/pdf_32x32.gif');
   background-repeat: no-repeat;
+  background-position: right;
 }
 
-#about {
+#provide-and-about {
   float: right;
   width: 350px;
   margin-right: 20px; 
   margin-top: 30px;
+}
+
+#about {
+  background-color: #101010;
+  font-size: 12px
+  line-height: 1.5em;
+  padding: 12px;
 }
 
 #about p {
@@ -37,7 +46,7 @@ ul#address { list-style: none; }
 }
 
 #headshot {
-  width: 150px;
+  width: 140px;
   float: right;
   margin: 10px;
 }
