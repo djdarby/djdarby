@@ -137,7 +137,16 @@ div#intro span#ellipsis {
 #services {
   width: 210px;
   float: left;
-  margin-left: 20px;
+  margin-left: 30px;
+}
+
+#services .brief {
+  background-color: #101010;
+  padding: 1px 0 4px 4px;
+}
+
+#services .brief p {
+  margin-top: 8px;
 }
 
 p#in-touch a {
@@ -148,7 +157,7 @@ p#in-touch a {
   background-color: #FFF36F;
   text-align: center;
   padding: 16px 0 16px 0;
-  color: #333;
+  color: #101010;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -175,14 +184,11 @@ img#mirrorball {
 }
 
 blockquote#endorsement {
- background-color: #000;
- margin: 0;
- margin-right: -3px;
+ background-color: #101010;
+ margin: auto;
  padding: 10px 6px 10px 8px;
  position: absolute;
  top: 33%;
- left: 0;
- right: 4px;
  line-height: 1.3em;
  text-align: center;
  font-size: 20px;
