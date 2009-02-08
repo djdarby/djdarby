@@ -189,6 +189,7 @@ blockquote#endorsement {
  padding: 10px 6px 10px 8px;
  position: absolute;
  top: 33%;
+ left: 0;
  line-height: 1.3em;
  text-align: center;
  font-size: 20px;
