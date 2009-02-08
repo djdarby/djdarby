@@ -9,7 +9,7 @@ class KaraokeController < ApplicationController
     @page_title = 'Karaoke available four nights a week or for private parties!'
   end
 
-  def selected_navigation
-    :karaoke
+  def set_selected_navigation
+    @selected_navigation = :karaoke
   end
 end

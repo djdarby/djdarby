@@ -4,7 +4,7 @@
     %title 
       = "[DEV] " if RAILS_ENV == 'development'
       DJDarby.com
-      = " #{@page_title}" unless @page_title.nil?
+      = "- #{@page_title}" unless @page_title.nil?
     = stylesheet_link_tag 'djdarby'
     = javascript_include_tag 'vendor/jquery-1.2.6', 'vendor/jquery-ui-personalized-1.5.3.js', 'vendor/jquery.form.js', 'vendor/jquery.ensure.js', 'vendor/jquery.ajax.js', "jquery.alerts.js", 'application'
     = yield :head
@@ -12,12 +12,12 @@
   %body
     #header
       #banner
-        = image_tag 'logo.png', :id => 'logo'
+        = image_tag 'logo.jpg', :id => 'logo'
         %ul#navigation
-          %li= link_to('Home', home_path) + '&nbsp;|'
-          %li= link_to('Receptions', receptions_path) + '&nbsp;|' 
-          %li= link_to('Karaoke', karaoke_path) + '&nbsp;|'
-          %li= link_to('Contact', contact_path)
+          %li= link_to('Home', home_path, :class => navigation_css_class(:home)) + '&nbsp;|'
+          %li= link_to('Receptions', receptions_path, :class => navigation_css_class(:receptions)) + '&nbsp;|' 
+          %li= link_to('Karaoke', karaoke_path, :class => navigation_css_class(:karaoke)) + '&nbsp;|'
+          %li= link_to('Contact', contact_path, :class => navigation_css_class(:contact))
         %br.clear
     #viewport
       = yield

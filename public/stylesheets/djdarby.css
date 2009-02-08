@@ -49,14 +49,13 @@ div#header {
 
 div#banner {
   position: relative;
-  width: 740px;
+  width: 840px;
   margin: auto;
 }
 
 #header #banner img#logo {
   height: 66px;
   float: left;
-  margin-left: -46px;
 }
 
 ul#navigation {
@@ -69,7 +68,7 @@ ul#navigation {
   line-height: 1.8em;
   position: absolute;
   bottom: 0;
-  right: -12px;
+  right: 50px;
 }
 
 ul#navigation li {
@@ -88,7 +87,7 @@ ul#navigation a:hover {
   color: #FFF36F;
 }
 
-ul#navigation a#current {
+ul#navigation a.current {
   color: #FFF36F;
 }
 
@@ -101,8 +100,8 @@ div#viewport {
   font-size: 14px;
   line-height: 1.2em;
   background-color: #202020;
-  border-right: solid #101010 2px;
-  border-bottom: solid #101010 2px;
+  border-right: solid #101010 0px;
+  border-bottom: solid #101010 0px;
 }
 
 #footer {

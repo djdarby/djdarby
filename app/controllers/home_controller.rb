@@ -5,4 +5,13 @@ class HomeController < ApplicationController
   def show
   end
 
+  private
+  def set_page_title
+    @page_title = 'Wedding receptions, events, karaoke.'
+  end
+
+  def set_selected_navigation
+    @selected_navigation = :home
+  end
+
 end
