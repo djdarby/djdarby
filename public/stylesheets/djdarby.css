@@ -121,10 +121,10 @@ div#viewport {
 }
 
 /* Home page styles */
+h2#intro { font-size: 22px; }
 
-div#intro span#ellipsis {
-  font-size: 16px;
-  font-weight: bold;
+#intro span#ellipsis {
+  font-size: 18px;
   color: #3399CC;
 }
 

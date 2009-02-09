@@ -82,12 +82,13 @@
   right: 0px;
   top: 0px;
   font-weight: bold;
-  color: #3399CC;
+  color: #FFF;
 }
 
 #packages a#planner-link {
   font-size: 16px;
   margin-left: 50px;
+  color: #FFF36F;
 }
 
 #packages img#cutting-cake {
