@@ -142,7 +142,7 @@ div#intro span#ellipsis {
 
 #services .brief {
   background-color: #101010;
-  padding: 1px 0 4px 4px;
+  padding: 1px 0 4px 6px;
 }
 
 #services .brief p {
@@ -213,3 +213,15 @@ blockquote#endorsement span#endorser {
  margin: 6px;
 }
 
+/* General */
+
+a.pdf-link {
+  display: inline-block;
+  line-height: 34px;
+  padding-top: 0.5em;
+  padding-right: 34px;
+  height: 34px;
+  background-image: url('/images/pdf_32x32.gif');
+  background-repeat: no-repeat;
+  background-position: right;
+}

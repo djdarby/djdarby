@@ -1,11 +1,70 @@
-img {  }
+#moment {
+  background-color: #101010;
+}
 
-#packages {
+#moment img#couple-dancing {
   width: 370px;
+  border: solid white 0px; 
+  margin: 0;
   float: left;
 }
 
-#packages div {
+#copy {
+  width: 330px;
+  float: right;
+}
+
+#copy h2 {
+  font-size: 30px;
+  margin-top: 34px;
+}
+
+#copy p {
+  line-height: 1.5em;
+  width: 90%;
+}
+
+#elegance-packages {
+  clear: both;
+  width: 95%;
+  padding: 6px 6px 6px 6px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #3399CC;
+  background-color: #FFF36F;
+  color: #101010;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+#elegance-packages span#elegance {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#packages ul {
+  list-style-type: square;
+  line-height: 1.3em;
+  font-size: 12px;
+  margin: 4px 0 4px 0px;
+  padding-left: 30px;
+}
+
+#packages #package-list {
+  background-color: #101010;
+  padding: 2px 6px 4px 2px;
+  float: left;
+  width: 320px;
+}
+
+#package-list {
+  width: 370px;
+  float: left;
+  margin: 0;
+}
+
+#packages #package-list div {
   width: 100%;
   position: relative;
 }
@@ -25,57 +84,15 @@ img {  }
   color: #3399CC;
 }
 
-#packages img#couple-dancing {
-  width: 360px;
-  border: solid white 2px; 
-  margin: 8px 0 12px 8px;
-}
-
-#packages span#elegance {
+#packages a#planner-link {
   font-size: 16px;
-  font-weight: bold;
-  color: #3399CC;
+  margin-left: 50px;
 }
 
-#packages ul {
-  list-style-type: square;
-  line-height: 1.3em;
-  font-size: 12px;
-  margin: 4px 0 4px 0px;
-  padding-left: 30px;
-}
-
-#packages #package-list {
-  background-color: #101010;
-  padding: 2px 6px 4px 2px;
-  margin-top: 10px;
-}
-
-#copy {
-  width: 330px;
-  float: right;
-}
-
-#copy h2 {
-  font-size: 30px;
-  margin-top: 44px;
-}
-
-#copy p {
-  line-height: 1.5em;
-}
-
-#copy p#offset {
-  background-color: #101010;
-  color: #FFF;
-  padding: 10px;
-  margin-left: 2px;
-}
-
-#copy img#cake-cutting {
- margin-left: 15px;
+#packages img#cutting-cake {
  position: absolute;
- bottom: 40px;
- border: solid white 2px; 
- width: 300px;
+ bottom: 10px;
+ right: 10px;
+ border: solid white 0px; 
+ width: 368px;
 }

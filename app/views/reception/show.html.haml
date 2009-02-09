@@ -1,21 +1,25 @@
 - content_for :head do
   = stylesheet_link_tag 'reception'
-#packages
+#moment
   = image_tag 'couple-dancing.jpg', :id => 'couple-dancing', :alt => 'Wedding couple dancing close at their reception.'
+  #copy
+    %h2 Stay in the moment
+    %p
+      The day of your wedding can feel like a whirlwind. It can be exhausting!
+    %p
+      Dj Darby will see that your reception is an event both you and your guests will enjoy.
+      No stress. No hassles.
+    %p
+      His experience and professionalism will ensure smooth transitions,
+      appropriate music, and a fun atmosphere are maintained throughout.
+  #br.clear
+#elegance-packages
   %p
     %span#elegance Dj Elegance – 
     all of our wedding packages are artistically designed to coordinate with the color and style of your reception room, while providing the highest quality sound and lighting.
+#packages
   = render :partial => 'packages'
-#copy
-  %h2 Stay in the moment
-  %p
-    The day of your wedding can feel like a whirlwind. It can be exhausting!
-  %p#offset
-    Dj Darby will see that your reception is an event your guests will enjoy and
-    you will look back on with happiness for the rest of your life.
-  %p
-    His experience and profesionalism will ensure smooth transitions,
-    appropriate music, and a fun atmosphere are maintained throughout.
-  = image_tag 'cake-cutting.jpg', :id => 'cake-cutting', :alt => 'Wedding couple cutting the cake at their reception.'
-%br.clear
+  = link_to 'View the Wedding Reception Planner.', planner_pdf_path, :id => 'planner-link', :class => 'pdf-link'
+  = image_tag 'cutting-cake.jpg', :id => 'cutting-cake', :alt => 'Wedding couple cutting the cake at their reception.'
+  %br.clear
 
