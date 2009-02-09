@@ -11,7 +11,8 @@
 
 #copy {
   width: 330px;
-  float: right;
+  float: left;
+  padding-left: 20px;
 }
 
 #copy h2 {
