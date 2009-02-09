@@ -41,6 +41,24 @@ p {
 
 .clear { clear: both; }
 
+html body div.autoclear,
+html body span.autoclear
+{
+     background: none;
+     border: 0;
+     clear: both;
+     display: block;
+     float: none;
+     font-size: 0;
+     margin: 0;
+     padding: 0;
+     position: static;
+     overflow: hidden;
+     visibility: hidden;
+     width: 0;
+     height: 0;
+}
+  
 div#header {
   width: 100%;
   padding-top: 24px;
