@@ -4,7 +4,7 @@ h2 {
 }
 
 h3 {
-  color: #3399CC;
+  color: #0099FF;
   font-size: 18px;
   margin-left: 12px;
 }
@@ -47,7 +47,7 @@ img#blue-singer {
 }
 
 blockquote#karaoke-endorsement {
- background-color: #3399CC;
+ background-color: #0099FF;
  margin: 32px 0px 32px 10px;
  padding: 10px 6px 10px 8px;
  line-height: 1.2em;
@@ -103,7 +103,7 @@ blockquote#karaoke-endorsement span#endorser {
   top: 8px;
   right: 2px;
   font-size: 36px;
-  color: #2288BB;
+  color: #0099FF;
 }
 
 .karaoke-night p {
