@@ -38,6 +38,7 @@ ActionController::Routing::Routes.draw do |map|
   map.contact '/contact', :controller => 'contact', :action => 'show'
   
   map.planner_pdf '/files/ReceptionPlanner.pdf', :controller => 'contact'
+  map.top_requests_pdf '/files/Top40RequestList.pdf', :controller => 'contact'
 
   #map.connect ':controller/:action/:id'
   #map.connect ':controller/:action/:id.:format'

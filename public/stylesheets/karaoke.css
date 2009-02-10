@@ -1,18 +1,31 @@
-h2 { font-size: 30px; }
-h3 { color: #3399CC; font-size: 18px; }
-h3.yellow { color: #FFF36F; }
+h2 {
+  font-size: 30px;
+  margin-bottom: 36px;
+}
+
+h3 {
+  color: #3399CC;
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+h3#schedule {
+  margin: 4px 0 8px 2px;
+}
 
 p { line-height: 1.5em; }
 
 #copy {
   float: left;
-  width: 290px;
+  width: 300px;
   padding-top: 0px;
-  padding-left: 12px;
 }
 
 #copy p {
   margin-left: 18px;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  margin-bottom:
   width: 260px;
 }
 
@@ -23,8 +36,11 @@ p { line-height: 1.5em; }
   padding-right: 20px;
 }
 
+a#top-40-pdf {
+  margin: 6px 0 32px 12px;
+}
+
 img#blue-singer {
-  border: solid white 2px;
   display: block;
   margin: auto;
   width: 300px;
@@ -32,7 +48,7 @@ img#blue-singer {
 
 blockquote#karaoke-endorsement {
  background-color: #3399CC;
- margin: 32px 0px 32px 0px;
+ margin: 32px 0px 32px 10px;
  padding: 10px 6px 10px 8px;
  line-height: 1.2em;
  text-align: center;
@@ -54,7 +70,6 @@ blockquote#karaoke-endorsement span#endorser {
   clear: both;
   width: 676px;
   margin: auto;
-  padding-top: 40px;
   padding-bottom: 18px;
 }
 
