@@ -189,6 +189,7 @@ p#in-touch a {
 #next-karaoke {
   width: 100%;
   clear: both;
+  margin-top: 30px;
 }
 
 #next-karaoke span {

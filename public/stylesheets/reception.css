@@ -1,5 +1,6 @@
 #moment {
   background-color: #101010;
+  overflow: hidden;
 }
 
 #moment img#couple-dancing {

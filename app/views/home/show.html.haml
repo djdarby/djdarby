@@ -15,6 +15,9 @@
     = HomeController::ENDORSEMENT
     %span#endorser= HomeController::ENDORSER
     %hr
+  #next-karaoke
+    %span Next Karaoke Night:
+    = next_karaoke_night
 #services
   .brief
     %h3 Fun, yet elegant
@@ -33,6 +36,4 @@
     %p
       Also available for private parties.
       = link_to 'Learn more.', karaoke_path
-#next-karaoke
-  %span Next Karaoke Night:
-  = next_karaoke_night
+%br.clear
