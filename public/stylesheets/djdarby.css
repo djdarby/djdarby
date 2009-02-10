@@ -164,7 +164,12 @@ h2#intro { font-size: 22px; }
 
 #services .brief {
   background-color: #101010;
-  padding: 1px 0 4px 6px;
+  padding: 1px 0 8px 6px;
+}
+
+#services h3 {
+  width: 100%;
+  text-align: center;
 }
 
 #services .brief p {
