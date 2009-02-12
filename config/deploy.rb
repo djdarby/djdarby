@@ -26,5 +26,10 @@ namespace :deploy do
     desc "#{t} task is a no-op with mod_rails"
     task t, :roles => :app do ; end
   end
+
+  desc "Load bootstrap data"
+  task :bootstrap, :depends => [:deploy] do
+    run "rake db:fixtures:load RAILS_ENV=production -f #{deploy_to}/current/Rakefile"
+  end
 end
 
