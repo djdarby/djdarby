@@ -1,0 +1,61 @@
+--- 
+karaoke_nights_004: 
+  city: Columbus
+  updated_at: 2009-02-11 20:09:14
+  zip: "43235"
+  map_url: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=My+Bar&sll=39.956201,-82.881589&sspn=0.00926,0.019655&g=4380+E.+Main+St.&ie=UTF8&ll=40.11589,-82.891159&spn=0.295634,0.628967&z=11&iwloc=A
+  id: "4"
+  phone: (614) 734-0417
+  street: 3534 W. Dublin Granville Rd.
+  venue: My Bar
+  day_string: Thursday
+  wday: "4"
+  created_at: 2009-02-11 20:07:26
+  state: OH
+  end_time: 1am
+  start_time: 9pm
+karaoke_nights_001: 
+  city: Columbus
+  updated_at: 2009-02-11 19:06:14
+  zip: "43213"
+  map_url: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Donericks+Pub+House&sll=39.962208,-83.000676&sspn=0.592598,1.257935&g=Columbus,+OH&ie=UTF8&ll=40.029718,-83.000336&spn=0.592014,1.257935&z=10&iwloc=A
+  id: "1"
+  phone: (614) 575-9811
+  street: 6935 E. Broad St.
+  venue: Donericks Pub House
+  day_string: Monday
+  wday: "1"
+  created_at: 2009-02-11 19:06:14
+  state: OH
+  end_time: 1am
+  start_time: 9pm
+karaoke_nights_002: 
+  city: Worthington
+  updated_at: 2009-02-11 20:09:14
+  zip: "43085"
+  map_url: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Crown+Sports+Lounge+507+S+Lazelle&sll=40.381598,-82.931671&sspn=0.588953,1.257935&ie=UTF8&ll=40.239702,-82.931671&spn=0.590187,1.257935&z=10&iwloc=B
+  id: "2"
+  phone: (614) 846-1122
+  street: 511 Lazelle Rd.
+  venue: Crown Sports Lounge
+  day_string: Tuesday
+  wday: "2"
+  created_at: 2009-02-11 19:55:25
+  state: OH
+  end_time: 1am
+  start_time: 9pm
+karaoke_nights_003: 
+  city: Columbus
+  updated_at: 2009-02-11 20:09:14
+  zip: "43213"
+  map_url: http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=4380+E.+Main+St.&sll=40.019201,-83.147278&sspn=0.592105,1.257935&ie=UTF8&ll=39.956201,-82.881589&spn=0.00926,0.019655&z=16&iwloc=addr
+  id: "3"
+  phone: (614) 239-7665
+  street: 4380 E. Main St.
+  venue: Crown Sports Lounge
+  day_string: Wednesday
+  wday: "3"
+  created_at: 2009-02-11 19:59:33
+  state: OH
+  end_time: 1am
+  start_time: 9pm

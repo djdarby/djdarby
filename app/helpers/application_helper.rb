@@ -1,7 +1,12 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
   def next_karaoke_night
-    link_to("Tonight at Crown Sports Lounge @ 9PM.", karaoke_path)
+    day_of_week = Date.today.wday
+    until next_night = KaraokeNight::Schedule[day_of_week] do
+      day_of_week = (day_of_week + 1) % KaraokeNight::Schedule.length
+    end
+    what_day = next_night.tonight? ? 'Tonight' : "Next #{next_night.day_string}"
+    link_to("#{what_day} at #{next_night.venue} @ #{next_night.start_time}.", karaoke_path)
   end
 
   def navigation_css_class(section)
