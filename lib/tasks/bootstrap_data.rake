@@ -1,7 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + "/../../config/environment")
 
-ENV["FIXTURE_ORDER"] ||= ""
-
 namespace :db do
   desc "Load app bootstrap data from fixtures into #{ENV['RAILS_ENV']} database"
   task :bootstrap => :environment do

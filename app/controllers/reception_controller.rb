@@ -1,6 +1,8 @@
 class ReceptionController < ApplicationController
-def show
-end
+  caches_page :show
+
+  def show
+  end
 
 private
   def set_page_title

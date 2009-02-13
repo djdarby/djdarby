@@ -1,7 +1,8 @@
 class ContactController < ApplicationController
+  caches_page :show
 
-def show
-end
+  def show
+  end
 
 private
   def set_page_title

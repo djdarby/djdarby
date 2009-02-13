@@ -1,7 +1,8 @@
 class KaraokeController < ApplicationController
-  
+ 
+  caches_page :show 
+
   def show
-  
   end
 
   private

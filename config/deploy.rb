@@ -28,8 +28,14 @@ namespace :deploy do
   end
 
   desc "Load bootstrap data"
-  task :bootstrap, :depends => [:deploy] do
-    run "rake db:fixtures:load RAILS_ENV=production -f #{deploy_to}/current/Rakefile"
+  task :bootstrap, :depends => [:deploy], :role => :db do
+    run "echo #{deploy_to}/current/Rakefile"
+    run "rake db:bootstrap RAILS_ENV=production --trace"#-f #{deploy_to}/current/Rakefile"
   end
+
+
+
+#  before 'deploy:bootstrap', 'deploy:migrations'
+ 
 end
 
