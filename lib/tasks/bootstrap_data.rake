@@ -10,7 +10,7 @@ namespace :db do
     }
     ActiveRecord::Base.establish_connection(ENV['RAILS_ENV'])
     bootstrap_fixtures.each do |fixture|
-      Fixtures.create_fixtures('db/bootstrap',  fixture)
+      Fixtures.create_fixtures(File.join(RAILS_ROOT, 'db', 'bootstrap'),  fixture)
     end
   end
 end
