@@ -14,8 +14,8 @@ p { line-height: 1.5em; }
 
 #schedule {
   float: right;
-  width: 372px;
-  padding: 12px 6px 10px 6px;
+  width: 360px;
+  padding: 12px 12px 12px 12px;
   background-color: #101010;
 }
 
@@ -55,11 +55,12 @@ img#blue-singer {
 blockquote#karaoke-endorsement {
  background-color: #0099FF;
  margin: 10px 0px 0px 0px;
- padding: 20px 6px 12px 6px;
+ padding: 12px 3px 6px 3px;
  line-height: 1.2em;
  text-align: center;
  font-size: 16px;
- width: 372px;
+ color: #101010;
+ width: 378px;
  float: right;
 }
 
@@ -67,9 +68,9 @@ blockquote#karaoke-endorsement span#endorser {
  display: inline-block;
  float: right;
  font-size: 14px;
- color: #101010;
  font-style: normal;
  font-weight: bold;
+ color: #FFF;
  margin: 6px 6px 0 0;
 }
 
