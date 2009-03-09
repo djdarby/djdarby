@@ -1,5 +1,5 @@
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   margin-top: 8px;
   margin-bottom: 36px;
 }
@@ -31,7 +31,7 @@ p { line-height: 1.5em; }
 .copy p {
   padding-left: 2px;
   margin-left: 0;
-  line-height: 1.5em;
+  line-height: 1.6em;
   font-size: 12px;
 }
 
@@ -89,13 +89,11 @@ blockquote#karaoke-endorsement span#endorser {
 
 .karaoke-night span.day_of_week {
   float: left;
-  font-size: 16px;
   color: #FFF36F;
 }
 
 .karaoke-night span.hours {
   float: right;
-  text-transform: uppercase;
 }
 
 .karaoke-night ul {
@@ -124,4 +122,8 @@ blockquote#karaoke-endorsement span#endorser {
   text-decoration: underline;
 }
 
+.karaoke-night li.street,
+.karaoke-night li.phone {
+  font-size: 12px;
+}
 
