@@ -5,7 +5,7 @@
     %span.hours= "#{night.start_time}&nbsp;&mdash;&nbsp;#{night.end_time}" 
     %ul
       %li.venue= night.venue
-      %li.map= link_to('Google Map', night.map_url, :target => '_blank')
+      %li.map= link_to('&nbsp', night.map_url, :target => '_blank', :title => 'Google Map')
       %li.street= night.street
       %li.phone= night.phone
 
