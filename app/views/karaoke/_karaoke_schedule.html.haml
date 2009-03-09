@@ -1,28 +1,13 @@
-%h3#schedule Upcoming
-.karaoke-night
-  %h3 Monday
-  %h4 9
-  %p
-    %span.hours 9pm-1am 
-    %span.venue Donericks Pub House
-.karaoke-night
-  %h3 Tuesday
-  %h4 10
-  %p
-    %span.hours 9pm-1am
-    %span.venue Crown Sports Lounge 
-.karaoke-night
-  %h3 Wednesday
-  %h4 11
-  %p
-    %span.hours 9pm-1am
-    %span.venue Crown Sport Lounge
-.karaoke-night
-  %h3 Thursday
-  %h4 12
-  %p
-    %span.hours 9pm-1am
-    %span.venue My Bar
+%h3 Weekly Schedule
+- nights.each do |night|
+  .karaoke-night
+    %span.day_of_week= night.day_string
+    %span.hours= "#{night.start_time}&nbsp;&mdash;&nbsp;#{night.end_time}" 
+    %ul
+      %li.venue= night.venue
+      %li.map= link_to('Google Map', night.map_url, :target => '_blank')
+      %li.street= night.street
+      %li.phone= night.phone
 
 
 

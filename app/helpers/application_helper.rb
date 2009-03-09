@@ -1,4 +1,3 @@
-# Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
   def next_karaoke_night
     day_of_week = Date.today.wday

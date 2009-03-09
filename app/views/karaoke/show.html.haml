@@ -1,26 +1,22 @@
 - content_for :head do
   = stylesheet_link_tag 'karaoke'
 
-#copy
-  %h2 Sing your heart out!
-  %h3 At karaoke night at the bar...
-  %p
-    Whether you're out on the town looking for a place to sing or
-    hosting your own karaoke party, Darby's 40,000&ndash;
-    %em plus
-    song library is bound to have your favorite song.
-  %h3 ...or at your own private party
-  %p
-    Reserve your own private party, starting at just &#36;300, 
-    or check out the weekly show schedule for a bar near you!
-  %blockquote#karaoke-endorsement
-    Darby knows all the regulars, and just how to tweak the microphone
-    for each singer. I've never seen a better karaoke Dj anywhere around town.
-    %span#endorser Matt, Grandview
-    %br.clear
 #singer-image
-  = link_to 'View the Top 40 requested songs by genre.', top_requests_pdf_path, :class => 'pdf-link', :id => 'top-40-pdf'
   = image_tag('karaoke_singer_blue.jpg', :id => 'blue-singer')
-#karaoke-schedule
-  = render :partial => 'karaoke_schedule'
+  %h2 Sing your heart out!
+  .copy
+    %p
+      Reserve your own private party, starting at just &#36;300, 
+      or check out the weekly show schedule for a bar near you!
+    %p
+      Darby's 40,000&ndash;
+      %em plus
+      song library is bound to have your favorite song.
+#schedule
+  = render :partial => 'karaoke_schedule', :locals => {:nights => KaraokeNight.all}
+%blockquote#karaoke-endorsement
+  Darby knows all the regulars, and just how to tweak the mic
+  for each singer. I've never seen a better karaoke Dj anywhere around town.
+  %span#endorser Matt, Grandview
   %br.clear
+%br.clear

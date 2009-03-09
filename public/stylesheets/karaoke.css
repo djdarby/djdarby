@@ -10,116 +10,117 @@ h3 {
   margin-left: 12px;
 }
 
-h3#schedule {
-  margin: 4px 0 8px 2px;
-}
-
 p { line-height: 1.5em; }
 
-#copy {
-  float: left;
-  width: 300px;
-  padding-top: 0px;
+#schedule {
+  float: right;
+  width: 372px;
+  padding: 12px 6px 10px 6px;
+  background-color: #101010;
 }
 
-#copy p {
-  margin-left: 18px;
-  margin-bottom: 20px;
-  padding-left: 12px;
-  margin-bottom:
-  width: 260px;
+#schedule h3 {
+  margin: 4px 0 12px 2px;
+  font-size: 18px;
+}
+
+.copy {
+  text-align: left;
+}
+
+.copy p {
+  padding-left: 2px;
+  margin-left: 0;
+  line-height: 1.4em;
 }
 
 #singer-image {
-  float: right;
-  width: 333px;
+  float: left;
+  width: 310px;
   text-align: center;
-  padding-right: 20px;
 }
 
-a#top-40-pdf {
-  margin: 6px 0 32px 12px;
+#singer-image h2 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 img#blue-singer {
   display: block;
   margin: auto;
-  width: 300px;
+  width: 310px;
 }
 
 blockquote#karaoke-endorsement {
  background-color: #0099FF;
- margin: 32px 0px 32px 10px;
- padding: 10px 6px 10px 8px;
+ margin: 10px 0px 0px 0px;
+ padding: 20px 6px 12px 6px;
  line-height: 1.2em;
  text-align: center;
  font-size: 16px;
- width: 290px;
+ width: 372px;
+ float: right;
 }
 
 blockquote#karaoke-endorsement span#endorser {
  display: inline-block;
  float: right;
  font-size: 14px;
- color: #333;
+ color: #101010;
  font-style: normal;
  font-weight: bold;
  margin: 6px 6px 0 0;
 }
 
-#karaoke-schedule{
-  clear: both;
-  width: 676px;
-  margin: auto;
-  padding-bottom: 18px;
-}
-
 .karaoke-night {
   position: relative;
-  width: 160px;
-  height: 140px;
-  float: left;
-  color: #333;
-  background-color: white;
-  border-left: solid #202020 1px;
-  border-right: solid #202020 1px;
+  margin-left: 8px;
+  margin-bottom: 8px;
   padding: 3px;
 }
 
-.karaoke-night h3 {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #333;
-}
-
-.karaoke-night h4 {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 8px;
-  right: 4px;
-  font-size: 32px;
-  color: #0099FF;
-}
-
-.karaoke-night p {
-  position: absolute;
-  bottom: 20px;
-  width: 90%;
-  text-align: center;
-}
-
 .karaoke-night span {
+  margin: 0;
+  padding: 0;
   display: block;
 }
 
-.karaoke-night span.venue {
-  font-weight: bold;
+.karaoke-night span.day_of_week {
+  float: left;
+  font-size: 16px;
+  color: #FFF36F;
+}
+
+.karaoke-night span.hours {
+  float: right;
+  text-transform: uppercase;
+}
+
+.karaoke-night ul {
+  list-style: none;
+  position: relative;
+  clear: both;
+  padding: 6px 0 0 0;
+  margin: 0 0 6px 0;
+  margin-left: 12px;
+}
+
+.karaoke-night li.map {
+  float: right;
+  font-size: 0px;
+}
+
+.karaoke-night li.map a {
+  display: inline-block;
+  line-height: 34px;
+  padding-right: 36px;
+  text-decoration: none;
+  background: url(/images/map-32x32.png) no-repeat top right;
+}
+
+.karaoke-night li.map a:hover {
+  text-decoration: underline;
 }
 
 
