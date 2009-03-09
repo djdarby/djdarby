@@ -1,5 +1,5 @@
 h2 {
-  font-size: 30px;
+  font-size: 22px;
   margin-top: 8px;
   margin-bottom: 36px;
 }
@@ -31,7 +31,8 @@ p { line-height: 1.5em; }
 .copy p {
   padding-left: 2px;
   margin-left: 0;
-  line-height: 1.4em;
+  line-height: 1.5em;
+  font-size: 12px;
 }
 
 #singer-image {
@@ -69,7 +70,6 @@ blockquote#karaoke-endorsement span#endorser {
  float: right;
  font-size: 14px;
  font-style: normal;
- font-weight: bold;
  color: #FFF;
  margin: 6px 6px 0 0;
 }
