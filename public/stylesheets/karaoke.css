@@ -112,6 +112,7 @@ blockquote#karaoke-endorsement span#endorser {
 
 .karaoke-night li.map a {
   display: inline-block;
+  text-indent: -9999em;
   line-height: 34px;
   padding-right: 36px;
   text-decoration: none;
