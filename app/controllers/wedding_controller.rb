@@ -1,4 +1,4 @@
-class ReceptionController < ApplicationController
+class WeddingController < ApplicationController
   caches_page :show
 
   def show
@@ -10,6 +10,6 @@ private
   end
 
   def set_selected_navigation
-    @selected_navigation = :receptions
+    @selected_navigation = :weddings
   end
 end
